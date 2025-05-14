@@ -7,12 +7,11 @@ This project is designed to showcase practical SQL skills by analyzing retail tr
 
 ## 📁 Project Overview
 
-In this project, we use SQL to explore and analyze retail transaction data. It is ideal for beginner to intermediate learners who want to:
-
-- Strengthen SQL querying skills
-- Practice data cleaning and aggregation
-- Develop insights from structured business data
-- Build portfolio-ready analytics projects
+In this project, we use SQL to explore and analyze retail transaction data.
+- Understand customer behavior
+- Track product performance
+- Analyze sales trends
+- Extract business insights from the data
 
 ---
 
@@ -29,12 +28,11 @@ The dataset consists of transaction records from a retail store. Below is the sc
 | `gender`          | Gender of the customer (`Male` / `Female`)                |
 | `age`             | Age of the customer                                       |
 | `category`        | Product category (e.g., Electronics, Clothing)            |
-| `quantiy`         | Quantity sold *(typo; should be `quantity`)*              |
+| `quantiy`         | Quantity sold              |
 | `price_per_unit`  | Price per unit of the product sold                        |
 | `cogs`            | Cost of goods sold                                        |
 | `total_sale`      | Total transaction value (`quantity * price_per_unit`)     |
 
-> 📝 **Note**: You may want to rename `quantiy` to `quantity` during the cleaning process.
 
 ---
 
@@ -45,34 +43,30 @@ This project answers questions such as:
 - What are the total and average sales per product category?
 - Which gender and age group contributes most to total revenue?
 - What are the busiest times of day for sales?
-- How does profit vary across categories?
-- What are the high-performing vs. underperforming products?
+- How are the top 5 customers based on the highest total sales?
 
 ---
 
 ## 🧰 Tools & Technologies
 
-- **SQL** (MySQL / PostgreSQL / SQLite – platform-independent)
-- SQL IDEs (e.g., DBeaver, pgAdmin, MySQL Workbench)
-- **Optional**: Excel or Power BI for visualizing query results
+- **SQL** (MySQL – platform-independent)
+- **SQL IDEs** (MySQL Workbench)
+- **Excel**
 
 ---
 
-## 🚀 How to Use
+## 🏁 How to Get Started
 
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/<your-username>/retail-sales-sql-project.git
-   cd retail-sales-sql-project
+1. **Import the Dataset**  
+   Loading the dataset into your SQL environment. Ensuring column names are clean and consistent.
 
-2. **Import Dataset**
-Load the dataset (CSV or SQL dump) into your SQL environment.
+2. **Check for Data Quality**  
+   Handle null values, and outliers.
 
-3. **Explore SQL Queries**
-Navigate to the queries/ folder and run the SQL scripts to explore the data.
+3. **Write and Run SQL Queries**  
+   Begin exploring! Use SELECT, GROUP BY, WHERE, and JOINs as needed.
 
-4. **Clean and Transform**
-Rename columns, handle typos, check for NULLs, and prepare the data for analysis.
+4. **Document Your Insights**  
+    Summarising the findings 
 
-5. **Analyze and Document**
-Use SQL to extract insights, then document them in the insights/ folder.
+---
