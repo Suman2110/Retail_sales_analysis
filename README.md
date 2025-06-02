@@ -3,8 +3,6 @@
 Welcome to the **Retail Sales Analysis** SQL project!  
 This project is designed to showcase practical SQL skills by analyzing retail transaction data to uncover sales trends, customer behavior, and business insights.
 
----
-
 ## 📁 Project Overview
 
 In this project, we use SQL to explore and analyze retail transaction data.
@@ -12,8 +10,6 @@ In this project, we use SQL to explore and analyze retail transaction data.
 - Track product performance
 - Analyze sales trends
 - Extract business insights from the data
-
----
 
 ## 🗃️ Dataset Description
 
@@ -33,9 +29,6 @@ The dataset consists of transaction records from a retail store. Below is the sc
 | `cogs`            | Cost of goods sold                                        |
 | `total_sale`      | Total transaction value (`quantity * price_per_unit`)     |
 
-
----
-
 ## 🔍 Key Analysis Areas
 
 This project answers questions such as:
@@ -45,15 +38,11 @@ This project answers questions such as:
 - What are the busiest times of day for sales?
 - How are the top 5 customers based on the highest total sales?
 
----
-
 ## 🧰 Tools & Technologies
 
 - **SQL** (MySQL – platform-independent)
 - **SQL IDEs** (MySQL Workbench)
 - **Excel**
-
----
 
 ## 🏁 How to Get Started
 
@@ -68,5 +57,3 @@ This project answers questions such as:
 
 4. **Document Your Insights**  
     Summarising the findings 
-
----
